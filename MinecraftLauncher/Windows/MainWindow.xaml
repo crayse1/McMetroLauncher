@@ -180,22 +180,6 @@
                                 </Setter>
                             </Style>
                         </TabControl.Resources>
-                        <TabItem Header="News" >
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="20*"/>
-                                    <RowDefinition Height="191*"/>
-                                </Grid.RowDefinitions>
-                                <awe:WebControl x:Name="Webcontrol_news" Margin="10,10,10,0" Source="http://www.minez.us/" Grid.RowSpan="2" />
-                                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Margin="234,120.865,233,161" Grid.Row="1">
-                                    <StackPanel x:Name="lbl_news_loading" Orientation="Horizontal" VerticalAlignment="Top">
-                                        <TextBlock FontSize="60" Text="Loading News" />
-                                        <TextBlock Text="..." FontSize="60" />
-                                    </StackPanel>
-                                    <Controls:MetroProgressBar x:Name="pb_news_loading" IsIndeterminate="True" VerticalAlignment="Bottom" Height="10" />
-                                </Grid>
-                            </Grid>
-                        </TabItem>
                         <TabItem x:Name="tabitem_console" Header="Console" >
                             <RichTextBox x:Name="tb_ausgabe" VerticalScrollBarVisibility="Auto" IsReadOnly="True" VerticalContentAlignment="Top" Margin="10,10,10,0" HorizontalScrollBarVisibility="Auto" TabIndex="2">
                                 <RichTextBox.Resources>

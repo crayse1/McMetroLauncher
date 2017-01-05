@@ -247,7 +247,6 @@ Public Class SplashScreen
         If MainViewModel.Instance.Settings.WindowState <> Windows.WindowState.Minimized Then
             Main.WindowState = MainViewModel.Instance.Settings.WindowState
         End If
-        Main.Webcontrol_news.Visibility = Windows.Visibility.Collapsed
         Main.tb_modsfolder.Text = modsfolder.FullName
         Main.Load_ModVersions()
         Profiles.Get_Profiles()

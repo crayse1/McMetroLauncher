@@ -87,15 +87,7 @@ Public Class MainWindow
     End Sub
 
     Private Async Sub MainWindow_Loaded(sender As Object, e As EventArgs) Handles Me.Loaded
-        'Set the Webbrowser Source:
-        Webcontrol_news.WebSession = WebCore.CreateWebSession(New WebPreferences() With {.CustomCSS = Scrollbarcss})
-        'wc_mod_video.WebSession = WebCore.CreateWebSession(New WebPreferences() With {.CustomCSS = Scrollbarcss})
-        While Webcontrol_news.IsLoading = True
-            Await Task.Delay(10)
-        End While
-        Webcontrol_news.Visibility = Windows.Visibility.Visible
-        lbl_news_loading.Visibility = Windows.Visibility.Collapsed
-        pb_news_loading.Visibility = Windows.Visibility.Collapsed
+
     End Sub
 #End Region
 
