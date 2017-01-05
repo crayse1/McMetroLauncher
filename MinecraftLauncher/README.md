@@ -14,5 +14,5 @@ Features:
 [.NET Framework 4.5](http://www.microsoft.com/de-de/download/details.aspx?id=30653) is needed to run this Programm!
 
 
-
+ 
 The MZLauncher is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE)

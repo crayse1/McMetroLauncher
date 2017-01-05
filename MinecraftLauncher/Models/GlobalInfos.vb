@@ -180,7 +180,7 @@ Public Module GlobalInfos
     Public Versions As Versionslist = New Versionslist
     Public Website As String = "http://patzleiner.net/"
     Public WebsiteNew As String = "http://www.minez.us"
-    Public Github As String = "https://github.com/JBou/McMetroLauncher"
+    Public Github As String = "https://github.com/crayse1"
     Public Appdata As New DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData))
     Public mcpfad As New DirectoryInfo(Path.Combine(Appdata.FullName, ".minecraft"))
     Public Applicationdata As New DirectoryInfo(Path.Combine(Appdata.FullName, "McMetroLauncher"))
